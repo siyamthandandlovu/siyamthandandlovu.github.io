@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('fonts/Geo-Sans-Light/geosanslight-webfont.woff2') format('woff2'),
+         url('fonts/Geo-Sans-Light/geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: geosanslightregular, Arial;
+}
+
+
+
+/*INTRO SECTION*/
+.btn-sect-intro {
+    border-radius: 1vh;
+}
+
+
+
+/*MAIN SECTION*/
+.div-project {
+    border-radius: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+}
+
+.img-proj {
+    border-radius: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    transition: transform 0.8s ease;
+/*     transition-duration: 1s;
+    transition-property: 
+       box-shadow; */
+   }
+
+.img-proj:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+/*     box-shadow: 0px 115px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+ */
+/*         box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+ */       }
+
+.btn-github{
+    border-radius: 5vh;
+}
+
+.img-proj:fullscreen {
+    border-radius: 569vh;
+
+}
+
+.b-media{
+ border-radius: 2vh;
+
+}
+
+.img-b-media{
+    border-radius: 2vh;
+    margin-top: 5vh;
+    transition: transform 0.8s ease;
+}
+
+.img-b-media:hover{
+    transform: scale(1.04);
+
+}
+
+
+/*BUTTON FOR PALLETE AND SKILL*/
+
+.btn-pallette {
+    border-radius: 2vh;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn-skill {
+    border-radius: 3vh;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+
+
+/*TEXT*/
+h1 {
+    font-size: 50px;
+}
+
+h3,
+.lead {
+    font-size: 25px;
+}
+
+p {
+    font-size: 19px;
+}
+
+#sect-intro h1 {
+    font-size: 65px;
+}
+
+.team-member-link {
+    text-decoration: none;
+}
+
+
+/*READ MORE / READ LESS*/
+.read {
+    cursor: pointer;
+}
+
+.btn-connect {
+    border-radius: 2vh;
+}
